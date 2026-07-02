@@ -1,22 +1,23 @@
 {
-  "name": "influencia-quiz",
-  "version": "2.0.0",
-  "description": "Quiz game for influencers - Descubra seu nível de influência",
+  "name": "influencia-quiz-crm",
+  "version": "3.0.0",
+  "description": "Quiz + CRM — Influência Global",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "lint": "eslint src",
-    "type-check": "tsc --noEmit"
+    "lint": "eslint src"
   },
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-router-dom": "^6.23.0",
     "zustand": "^4.4.1",
     "framer-motion": "^10.16.18",
     "react-icons": "^4.12.0",
     "canvas-confetti": "^1.9.0",
+    "recharts": "^2.12.0",
     "clsx": "^2.0.0",
     "tailwind-merge": "^2.2.2"
   },

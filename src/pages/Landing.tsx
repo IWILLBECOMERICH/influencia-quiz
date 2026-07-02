@@ -35,6 +35,28 @@ export const Landing: React.FC<LandingProps> = ({ onStart }) => {
   return (
     <div className="w-full max-w-[420px] mx-auto">
 
+      {/* ─── CRM LINK ─── */}
+      <div className="absolute top-3 right-3 z-30">
+        <a
+          href="/crm"
+          className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold transition-all"
+          style={{
+            background: 'rgba(5,8,22,0.85)',
+            border: '1px solid rgba(0,255,200,0.2)',
+            color: '#00ffc8',
+            backdropFilter: 'blur(12px)',
+          }}
+        >
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round">
+            <rect x="3" y="3" width="7" height="7" />
+            <rect x="14" y="3" width="7" height="7" />
+            <rect x="14" y="14" width="7" height="7" />
+            <rect x="3" y="14" width="7" height="7" />
+          </svg>
+          CRM
+        </a>
+      </div>
+
       {/* ─── HERO IMAGE ─── */}
       <div className="relative overflow-hidden" style={{ height: 240 }}>
         <img
